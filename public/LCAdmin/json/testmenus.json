@@ -1,0 +1,365 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "title": "Dashboard",
+      "path": "javascript:;",
+      "icon": "layui-icon layui-icon-home",
+      "children": [
+        {
+          "title": "工作台",
+          "path": "#/console/workplace"
+        },
+        {
+          "title": "控制台",
+          "path": "#/console/console"
+        },
+        {
+          "title": "分析页",
+          "path": "#/console/dashboard"
+        }
+      ]
+    },
+    {
+      "title": "系统管理",
+      "icon": "layui-icon layui-icon-set",
+      "path": "javascript:;",
+      "children": [
+        {
+          "title": "用户管理",
+          "path": "#/system/user"
+        },
+        {
+          "title": "角色管理",
+          "path": "#/system/role"
+        },
+        {
+          "title": "权限管理",
+          "path": "#/system/authorities"
+        },
+        {
+          "title": "字典管理",
+          "path": "#/system/dictionary"
+        },
+        {
+          "title": "机构管理",
+          "path": "#/system/organization"
+        },
+        {
+          "title": "登录日志",
+          "path": "#/system/login-record"
+        },
+        {
+          "title": "操作日志",
+          "path": "#/system/oper-record"
+        }
+      ]
+    },
+    {
+      "title": "模板页面",
+      "icon": "layui-icon layui-icon-template",
+      "path": "javascript:;",
+      "children": [
+        {
+          "title": "表单页",
+          "path": "javascript:;",
+          "children": [
+            {
+              "title": "基础表单",
+              "path": "#/template/form/form-basic"
+            },
+            {
+              "title": "复杂表单",
+              "path": "#/template/form/form-advance"
+            },
+            {
+              "title": "分步表单",
+              "path": "#/template/form/form-step"
+            }
+          ]
+        },
+        {
+          "title": "表格页",
+          "path": "javascript:;",
+          "children": [
+            {
+              "title": "数据表格",
+              "path": "#/template/table/table-basic"
+            },
+            {
+              "title": "复杂表格",
+              "path": "#/template/table/table-advance"
+            },
+            {
+              "title": "图片表格",
+              "path": "#/template/table/table-img"
+            },
+            {
+              "title": "卡片列表",
+              "path": "#/template/table/table-card"
+            }
+          ]
+        },
+        {
+          "title": "错误页",
+          "path": "javascript:;",
+          "children": [
+            {
+              "title": "500",
+              "path": "#/template/error/error-500"
+            },
+            {
+              "title": "404",
+              "path": "#/template/error/error-404"
+            },
+            {
+              "title": "403",
+              "path": "#/template/error/error-403"
+            }
+          ]
+        },
+        {
+          "title": "登录页",
+          "path": "javascript:;",
+          "children": [
+            {
+              "title": "登录页",
+              "path": "components/template/login/login.html",
+              "target": "_blank"
+            },
+            {
+              "title": "注册页",
+              "path": "components/template/login/reg.html",
+              "target": "_blank"
+            },
+            {
+              "title": "忘记密码",
+              "path": "components/template/login/forget.html",
+              "target": "_blank"
+            }
+          ]
+        },
+        {
+          "title": "个人中心",
+          "path": "#/template/user-info"
+        }
+      ]
+    },
+    {
+      "title": "扩展组件",
+      "icon": "layui-icon layui-icon-component",
+      "path": "javascript:;",
+      "children": [
+        {
+          "title": "常用组件",
+          "path": "javascript:;",
+          "children": [
+            {
+              "title": "弹窗扩展",
+              "path": "#/plugin/basic/dialog"
+            },
+            {
+              "title": "下拉菜单",
+              "path": "#/plugin/basic/dropdown"
+            },
+            {
+              "title": "消息通知",
+              "path": "#/plugin/basic/notice"
+            },
+            {
+              "title": "标签输入",
+              "path": "#/plugin/basic/tagsInput"
+            },
+            {
+              "title": "级联选择",
+              "path": "#/plugin/basic/cascader"
+            },
+            {
+              "title": "步骤条",
+              "path": "#/plugin/basic/steps"
+            }
+          ]
+        },
+        {
+          "title": "进阶组件",
+          "path": "javascript:;",
+          "children": [
+            {
+              "title": "打印插件",
+              "path": "#/plugin/advance/printer"
+            },
+            {
+              "title": "分割面板",
+              "path": "#/plugin/advance/split"
+            },
+            {
+              "title": "表单扩展",
+              "path": "#/plugin/advance/formX"
+            },
+            {
+              "title": "表格扩展",
+              "path": "#/plugin/advance/tableX"
+            },
+            {
+              "title": "数据列表",
+              "path": "#/plugin/advance/dataGrid"
+            },
+            {
+              "title": "鼠标右键",
+              "path": "#/plugin/advance/contextMenu"
+            }
+          ]
+        },
+        {
+          "title": "其他组件",
+          "path": "javascript:;",
+          "children": [
+            {
+              "title": "圆形进度条",
+              "path": "#/plugin/other/circleProgress"
+            },
+            {
+              "title": "富文本编辑",
+              "path": "#/plugin/other/editor"
+            },
+            {
+              "title": "鼠标滚轮",
+              "path": "#/plugin/other/mousewheel"
+            },
+            {
+              "title": "更多组件",
+              "path": "#/plugin/other/other"
+            }
+          ]
+        },
+        {
+          "title": "更多扩展",
+          "path": "#/plugin/more"
+        }
+      ]
+    },
+    {
+      "title": "经典实例",
+      "icon": "layui-icon layui-icon-app",
+      "path": "javascript:;",
+      "children": [
+        {
+          "title": "弹窗实例",
+          "path": "#/example/dialog"
+        },
+        {
+          "title": "课程管理",
+          "path": "#/example/course"
+        },
+        {
+          "title": "排课管理",
+          "path": "#/example/calendar"
+        },
+        {
+          "title": "添加试题",
+          "path": "#/example/question"
+        },
+        {
+          "title": "文件管理",
+          "path": "#/example/file"
+        },
+        {
+          "title": "表格CRUD",
+          "path": "#/example/table-crud"
+        },
+        {
+          "title": "路由传参",
+          "path": "#/example/router-demo"
+        },
+        {
+          "title": "多系统模式",
+          "path": "side-more.html",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "title": "LayUI组件",
+      "icon": "layui-icon layui-icon-release",
+      "path": "javascript:;",
+      "children": [
+        {
+          "title": "组件演示",
+          "path": "#/plugin/other/layui"
+        },
+        {
+          "title": "layui文档",
+          "path": "#/layui/doc",
+          "component": "https://www.layui.com/doc/element/button.html#use"
+        },
+        {
+          "title": "layer弹窗",
+          "path": "#/layui/layer",
+          "component": "https://layer.layui.com/"
+        },
+        {
+          "title": "laydate日期",
+          "path": "#/layui/laydate",
+          "component": "https://www.layui.com/laydate/"
+        }
+      ]
+    },
+    {
+      "title": "多级菜单",
+      "path": "javascript:;",
+      "icon": "layui-icon-unlink",
+      "children": [
+        {
+          "title": "二级菜单",
+          "path": "javascript:;"
+        },
+        {
+          "title": "二级菜单",
+          "path": "javascript:;",
+          "children": [
+            {
+              "title": "三级菜单",
+              "path": "javascript:;"
+            },
+            {
+              "title": "三级菜单",
+              "path": "javascript:;",
+              "children": [
+                {
+                  "title": "四级菜单",
+                  "path": "javascript:;"
+                },
+                {
+                  "title": "四级菜单",
+                  "path": "javascript:;",
+                  "children": [
+                    {
+                      "title": "五级菜单",
+                      "path": "javascript:;"
+                    },
+                    {
+                      "title": "百度一下",
+                      "path": "#/baidu",
+                      "component": "https://baidu.com"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "一级菜单",
+      "icon": "layui-icon-unlink",
+      "path": "#/baidu2",
+      "component": "https://baidu.com"
+    },
+    {
+      "title": "路由传参",
+      "path": "#/example/router-param",
+      "hide": true
+    }
+  ]
+}
